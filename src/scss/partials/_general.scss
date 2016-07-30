@@ -1,0 +1,24 @@
+body {
+  background-color: $mirage;
+  font-family: "Arial", "Sans-serif";
+}
+
+.container {
+  width: 960px;
+  background-color: $blueZodiac;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+}
+
+h3 {
+  color: $meteor;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+hr {
+  margin-top: 10px;
+}

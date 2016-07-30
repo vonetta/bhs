@@ -1,0 +1,51 @@
+.bottom-about-us,
+.bottom-services,
+.bottom-involved {
+  background-color: $blackPearl;
+  height: 40px;
+  width: 200px;
+  color: $white;
+  border-right: 1px solid black;
+  text-align: center;
+  line-height: 2.5;
+  bottom: 100px;
+}
+
+.bottom-about-us {
+  left: 20px;
+}
+
+.bottom-services {
+  left: 270px;
+}
+
+.bottom-involved {
+  left: 520px;
+}
+
+.bottom-about-us-list,
+.bottom-services-list,
+.bottom-involved-list {
+  bottom: 20px;
+  color: $silver;
+  font-size: 13px;
+}
+
+//   .bottom-about-us-list {
+//   left: 20px;
+// }
+// .bottom-services-list {
+//   left: 270px;
+// }
+// .bottom-involved-list {
+//   left: 520px;
+// }
+//   .bottom-logo {
+//   bottom: 30px;
+//   right: 10px;
+// }
+.copyright {
+  color: $white;
+  font-size: 12px;
+  text-align: center;
+}
