@@ -5,13 +5,22 @@
 .top-nav {
   position: absolute;
   top: 15px;
-  left: 100px;
+  left: 80px;
   font-size: 14px;
 }
 
 .top-nav li {
   display: inline;
   padding-left: 3px;
+}
+
+.top-nav li a {
+  border-left: 1px solid #dee0e5;
+  padding-left: 7px;
+}
+
+li:first-child a {
+  border-left: 0 none;
 }
 
 .top-nav a {
