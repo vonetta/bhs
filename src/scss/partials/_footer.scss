@@ -1,36 +1,58 @@
-.bottom-about-us,
-.bottom-services,
-.bottom-involved {
-  background-color: $blackPearl;
-  height: 40px;
-  width: 200px;
-  color: $white;
-  border-right: 1px solid black;
-  text-align: center;
-  line-height: 2.5;
-  bottom: 100px;
+.footer {
+  height: 200px;
+  background-color: $blueZodiac;
+  color: $doveGray;
+  div {
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+    h4 {
+      background-color: $blackPearl;
+      height: 40px;
+      line-height: 40px;
+      color: $alabaster;
+      white-space: nowrap;
+      width: 200px;
+      text-align: center;
+      font-weight: normal;
+    }
+    &.logos-footer {
+      margin-top: 40px;
+      img {
+        padding: 5px;
+      }
+    }
+  }
 }
 
-.bottom-about-us {
-  left: 20px;
-}
-
-.bottom-services {
-  left: 270px;
-}
-
-.bottom-involved {
-  left: 520px;
-}
-
-.bottom-about-us-list,
-.bottom-services-list,
-.bottom-involved-list {
-  bottom: 20px;
-  color: $silver;
-  font-size: 13px;
-}
-
+// .bottom-about-us,
+// .bottom-services,
+// .bottom-involved {
+//   background-color: $blackPearl;
+//   height: 40px;
+//   width: 200px;
+//   color: $white;
+//   border-right: 1px solid black;
+//   text-align: center;
+//   line-height: 2.5;
+//   bottom: 100px;
+// }
+// .bottom-about-us {
+//   left: 20px;
+// }
+// .bottom-services {
+//   left: 270px;
+// }
+// .bottom-involved {
+//   left: 520px;
+// }
+// .bottom-about-us-list,
+// .bottom-services-list,
+// .bottom-involved-list {
+//   bottom: 20px;
+//   color: $silver;
+//   font-size: 13px;
+// }
 //   .bottom-about-us-list {
 //   left: 20px;
 // }
