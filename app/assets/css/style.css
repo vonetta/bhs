@@ -482,12 +482,13 @@ button.icon {
   display: inline;
   padding-left: 3px; }
 
-.top-nav li a {
-  border-left: 1px solid #dee0e5;
-  padding-left: 7px; }
+.top-nav li::before {
+  content: "|";
+  padding-right: 5px;
+  padding-left: 5px; }
 
-li:first-child a {
-  border-left: 0 none; }
+.top-nav li:first-child:before {
+  content: " "; }
 
 .top-nav a {
   text-decoration: none;
