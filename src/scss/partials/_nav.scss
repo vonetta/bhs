@@ -5,13 +5,22 @@
 .top-nav {
   position: absolute;
   top: 15px;
-  left: 100px;
+  left: 80px;
   font-size: 14px;
 }
 
 .top-nav li {
   display: inline;
   padding-left: 3px;
+}
+
+.top-nav li a {
+  border-left: 1px solid #dee0e5;
+  padding-left: 7px;
+}
+
+li:first-child a {
+  border-left: 0 none;
 }
 
 .top-nav a {
@@ -30,15 +39,16 @@ nav {
   background-color: $wildSand;
   text-transform: uppercase;
   font-size: 14px;
+  margin-top: -75px;
   ul {
     list-style-type: none;
     overflow: hidden;
+    margin-left: 90px;
   }
   li a {
     display: block;
     color: $black;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 0px 20px;
     text-decoration: none;
   }
   li {
@@ -49,6 +59,10 @@ nav {
 nav a:hover {
   background-color: $silver;
 }
+/*nav li a:after {
+  content: "|";
+}
+*/
 
 
 /*==================================
