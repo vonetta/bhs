@@ -1,5 +1,7 @@
 .content-container {
   background-color: $alabaster;
+  padding-bottom: 20px;
+  margin-top: -45px;
 }
 
 .main {
@@ -11,9 +13,11 @@
   // background: linear-gradient(to bottom, rgba(237, 235, 235, 1) 0%, rgba(255, 255, 255, 1) 100%);
   width: 675px;
   float: left;
+  margin-top: -38px;
   .col-one {
     float: left;
     width: 400px;
+    margin-left: 12px;
   }
 }
 
@@ -21,6 +25,7 @@
   font-family: serif;
   display: inline;
   text-align: left;
+  margin-left: 12px;
 }
 
 .large-img {
@@ -28,9 +33,11 @@
   display: block;
 }
 
-.since-1973 {
+
+/*.since-1973 {
   color: $white;
 }
+*/
 
 .prevention {
   font-family: serif;

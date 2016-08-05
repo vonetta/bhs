@@ -7,15 +7,22 @@
 
 .menu-options li {
   list-style: none;
-  font-size: 13px;
   border-bottom: 1px solid $black;
   text-align: left;
   margin-left: -27px;
   margin-bottom: 8px;
+  line-height: 1.5;
 }
 
-.sub-menu {
-  margin-left: -20px;
+.first-list {
+  border-bottom: 1px solid $black;
+  ;
+}
+
+ul .sub-menu li {
+  border-bottom: none;
+  margin-left: 10px;
+  font-size: 11px;
 }
 
 .get-involved,
@@ -58,9 +65,10 @@
 
 a.donate {
   background-color: $meteor;
-  padding: 10px 94px;
+  padding: 10px 99px;
   text-decoration: none;
   color: $white;
+  margin-left: 5px;
 }
 
 .sm-aside {
@@ -90,8 +98,23 @@ article {
     border-bottom: .5px solid black;
     font-size: 18px;
     color: $chathamsBlue;
+    font-weight: 100;
   }
-  p {
-    font-size: 14px;
+  .article-content {
+    font-size: 10px;
+    font-weight: 200;
   }
+}
+
+.date {
+  color: $meteor;
+  font-size: 10px;
+  font-weight: 100;
+  line-height: .1;
+}
+
+.author {
+  color: $mercury;
+  font-size: 10px;
+  font-weight: 100;
 }
